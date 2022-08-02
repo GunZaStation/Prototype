@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     private func makeTabBarController() -> UITabBarController {
         let tabBarController = UITabBarController()
-        let first = MainViewController()
+        let first = UINavigationController(rootViewController: MainViewController())
         let firstTabBarItem = TabBarItems(first)
         first.tabBarItem = UITabBarItem(
             title: nil,

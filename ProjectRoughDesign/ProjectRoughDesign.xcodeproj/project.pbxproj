@@ -21,11 +21,18 @@
 		025C6E7E2887EB690075F089 /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C6E7D2887EB690075F089 /* CellViewController.swift */; };
 		025C6E802887EB820075F089 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C6E7F2887EB820075F089 /* ImageViewController.swift */; };
 		02AD6746288D49CF00B1CF1E /* TrophyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD6745288D49CE00B1CF1E /* TrophyViewController.swift */; };
-		02AD6748288D586D00B1CF1E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD6747288D586D00B1CF1E /* MainViewController.swift */; };
+		02AD6748288D586D00B1CF1E /* MainViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD6747288D586D00B1CF1E /* MainViewController2.swift */; };
 		02AD674A288D64E100B1CF1E /* TrophyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD6749288D64E100B1CF1E /* TrophyCell.swift */; };
 		35865E5A3736991DDD0BCCBC /* Pods_ProjectRoughDesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287CB3DD6CDBE2CA888E36D3 /* Pods_ProjectRoughDesign.framework */; };
 		6BFDBE57A7C732C47B55119E /* Pods_ProjectRoughDesign_ProjectRoughDesignUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0562929F2E71D5E236BFF07 /* Pods_ProjectRoughDesign_ProjectRoughDesignUITests.framework */; };
 		7C6BA09B21A15C181AA10F8A /* Pods_ProjectRoughDesignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7CBE6861324F693FC02208 /* Pods_ProjectRoughDesignTests.framework */; };
+		B569E9D8289855ED006FFFB9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569E9D7289855ED006FFFB9 /* MainViewController.swift */; };
+		B569E9DF2898560C006FFFB9 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569E9D92898560B006FFFB9 /* CollectionViewHeader.swift */; };
+		B569E9E02898560C006FFFB9 /* PurposeAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569E9DA2898560B006FFFB9 /* PurposeAddViewController.swift */; };
+		B569E9E12898560C006FFFB9 /* CategoryAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569E9DB2898560B006FFFB9 /* CategoryAddViewController.swift */; };
+		B569E9E22898560C006FFFB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569E9DC2898560B006FFFB9 /* CollectionViewCell.swift */; };
+		B569E9E32898560C006FFFB9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569E9DD2898560B006FFFB9 /* Models.swift */; };
+		B569E9E42898560C006FFFB9 /* InsertField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569E9DE2898560C006FFFB9 /* InsertField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,12 +71,19 @@
 		025C6E7D2887EB690075F089 /* CellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
 		025C6E7F2887EB820075F089 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		02AD6745288D49CE00B1CF1E /* TrophyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyViewController.swift; sourceTree = "<group>"; };
-		02AD6747288D586D00B1CF1E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		02AD6747288D586D00B1CF1E /* MainViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController2.swift; sourceTree = "<group>"; };
 		02AD6749288D64E100B1CF1E /* TrophyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyCell.swift; sourceTree = "<group>"; };
 		287CB3DD6CDBE2CA888E36D3 /* Pods_ProjectRoughDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectRoughDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDE7BD143A2ADDA184BD3A3 /* Pods-ProjectRoughDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRoughDesign.debug.xcconfig"; path = "Target Support Files/Pods-ProjectRoughDesign/Pods-ProjectRoughDesign.debug.xcconfig"; sourceTree = "<group>"; };
 		A82D4CDE6F5C205F80BC873A /* Pods-ProjectRoughDesign-ProjectRoughDesignUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRoughDesign-ProjectRoughDesignUITests.release.xcconfig"; path = "Target Support Files/Pods-ProjectRoughDesign-ProjectRoughDesignUITests/Pods-ProjectRoughDesign-ProjectRoughDesignUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A840AE9B67290C2C4E01130E /* Pods-ProjectRoughDesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRoughDesignTests.release.xcconfig"; path = "Target Support Files/Pods-ProjectRoughDesignTests/Pods-ProjectRoughDesignTests.release.xcconfig"; sourceTree = "<group>"; };
+		B569E9D7289855ED006FFFB9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B569E9D92898560B006FFFB9 /* CollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewHeader.swift; sourceTree = "<group>"; };
+		B569E9DA2898560B006FFFB9 /* PurposeAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurposeAddViewController.swift; sourceTree = "<group>"; };
+		B569E9DB2898560B006FFFB9 /* CategoryAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryAddViewController.swift; sourceTree = "<group>"; };
+		B569E9DC2898560B006FFFB9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B569E9DD2898560B006FFFB9 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B569E9DE2898560C006FFFB9 /* InsertField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertField.swift; sourceTree = "<group>"; };
 		BE7CBE6861324F693FC02208 /* Pods_ProjectRoughDesignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectRoughDesignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0562929F2E71D5E236BFF07 /* Pods_ProjectRoughDesign_ProjectRoughDesignUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectRoughDesign_ProjectRoughDesignUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A3E3993BFF90AE610ED85D /* Pods-ProjectRoughDesign-ProjectRoughDesignUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRoughDesign-ProjectRoughDesignUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProjectRoughDesign-ProjectRoughDesignUITests/Pods-ProjectRoughDesign-ProjectRoughDesignUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,17 +144,10 @@
 		025C6E4228865DDD0075F089 /* ProjectRoughDesign */ = {
 			isa = PBXGroup;
 			children = (
+				B569E9D6289855BA006FFFB9 /* Jed */,
+				B569E9D5289855AF006FFFB9 /* Sol */,
 				025C6E4328865DDD0075F089 /* AppDelegate.swift */,
 				025C6E4528865DDD0075F089 /* SceneDelegate.swift */,
-				025C6E4728865DDD0075F089 /* AlbumViewController.swift */,
-				025C6E7D2887EB690075F089 /* CellViewController.swift */,
-				025C6E7F2887EB820075F089 /* ImageViewController.swift */,
-				025C6E772887EB1F0075F089 /* BigCell.swift */,
-				025C6E792887EB320075F089 /* Cell.swift */,
-				025C6E7B2887EB450075F089 /* Header.swift */,
-				02AD6747288D586D00B1CF1E /* MainViewController.swift */,
-				02AD6745288D49CE00B1CF1E /* TrophyViewController.swift */,
-				02AD6749288D64E100B1CF1E /* TrophyCell.swift */,
 				025C6E4C28865DDF0075F089 /* Assets.xcassets */,
 				025C6E4E28865DDF0075F089 /* LaunchScreen.storyboard */,
 				025C6E5128865DDF0075F089 /* Info.plist */,
@@ -186,6 +193,36 @@
 				A840AE9B67290C2C4E01130E /* Pods-ProjectRoughDesignTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B569E9D5289855AF006FFFB9 /* Sol */ = {
+			isa = PBXGroup;
+			children = (
+				025C6E4728865DDD0075F089 /* AlbumViewController.swift */,
+				025C6E7D2887EB690075F089 /* CellViewController.swift */,
+				025C6E7F2887EB820075F089 /* ImageViewController.swift */,
+				025C6E772887EB1F0075F089 /* BigCell.swift */,
+				025C6E792887EB320075F089 /* Cell.swift */,
+				025C6E7B2887EB450075F089 /* Header.swift */,
+				02AD6747288D586D00B1CF1E /* MainViewController2.swift */,
+				02AD6745288D49CE00B1CF1E /* TrophyViewController.swift */,
+				02AD6749288D64E100B1CF1E /* TrophyCell.swift */,
+			);
+			path = Sol;
+			sourceTree = "<group>";
+		};
+		B569E9D6289855BA006FFFB9 /* Jed */ = {
+			isa = PBXGroup;
+			children = (
+				B569E9D7289855ED006FFFB9 /* MainViewController.swift */,
+				B569E9DB2898560B006FFFB9 /* CategoryAddViewController.swift */,
+				B569E9DC2898560B006FFFB9 /* CollectionViewCell.swift */,
+				B569E9D92898560B006FFFB9 /* CollectionViewHeader.swift */,
+				B569E9DE2898560C006FFFB9 /* InsertField.swift */,
+				B569E9DD2898560B006FFFB9 /* Models.swift */,
+				B569E9DA2898560B006FFFB9 /* PurposeAddViewController.swift */,
+			);
+			path = Jed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,16 +464,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				02AD674A288D64E100B1CF1E /* TrophyCell.swift in Sources */,
+				B569E9E32898560C006FFFB9 /* Models.swift in Sources */,
 				025C6E7E2887EB690075F089 /* CellViewController.swift in Sources */,
 				025C6E4828865DDD0075F089 /* AlbumViewController.swift in Sources */,
+				B569E9E02898560C006FFFB9 /* PurposeAddViewController.swift in Sources */,
+				B569E9D8289855ED006FFFB9 /* MainViewController.swift in Sources */,
+				B569E9E12898560C006FFFB9 /* CategoryAddViewController.swift in Sources */,
+				B569E9E42898560C006FFFB9 /* InsertField.swift in Sources */,
 				025C6E4428865DDD0075F089 /* AppDelegate.swift in Sources */,
 				025C6E7A2887EB320075F089 /* Cell.swift in Sources */,
 				025C6E782887EB1F0075F089 /* BigCell.swift in Sources */,
 				025C6E7C2887EB450075F089 /* Header.swift in Sources */,
+				B569E9E22898560C006FFFB9 /* CollectionViewCell.swift in Sources */,
 				02AD6746288D49CF00B1CF1E /* TrophyViewController.swift in Sources */,
 				025C6E802887EB820075F089 /* ImageViewController.swift in Sources */,
 				025C6E4628865DDD0075F089 /* SceneDelegate.swift in Sources */,
-				02AD6748288D586D00B1CF1E /* MainViewController.swift in Sources */,
+				B569E9DF2898560C006FFFB9 /* CollectionViewHeader.swift in Sources */,
+				02AD6748288D586D00B1CF1E /* MainViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
